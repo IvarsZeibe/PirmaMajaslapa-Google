@@ -1,7 +1,28 @@
 <html>
-    <head></head>
+    <head>
+        <style>
+            .center{
+                text-align: center;
+            }
+            .search-bar{
+                width: 30%;
+                height: 45px;
+                border-radius: 30px;
+                border: 1px solid silver
+            }
+            .search-bar:focus{
+                box-shadow: 0px 0px 5px 1px silver;
+                outline-style: unset;
+            }
+        </style>
+    </head>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-        <label><input type="text"></label>
+        <div class="center" style="margin-top: 150px;">
+            <div class="row">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            </div>
+            <div class="row" style="margin-top: 40px;">
+                <input type="text" class="search-bar">
+            </div></div>
     </body>
 </html>
