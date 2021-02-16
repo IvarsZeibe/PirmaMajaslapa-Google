@@ -6,12 +6,14 @@
                 text-align: center;
             }
             .search-bar{
-                width: 30%;
+                width: 500px;
                 height: 45px;
                 border-radius: 30px;
                 border: 1px solid silver;
                 display: inline-block;
                 text-align: left;
+                white-space: nowrap;
+                overflow: hidden;
             }
             .search-bar:hover, .search-bar:focus-within{
                 box-shadow: 0px 0px 5px 1px silver;
@@ -133,7 +135,6 @@
                 background-color: transparent;
                 width: 32px;
                 height: 32px;
-                margin-top: 5px;
                 margin-left: 15px;
                 text-align: center;
                 vertical-align: middle;
@@ -156,10 +157,11 @@
             <a href="#" class="black-text margin-left">Attēli</a>
             <span class="menu">
             <svg class="menu-icon">
-                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 
-                2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 
-                -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,
-                14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                <path d="M6,12c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,24c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,
+                2zM6,24c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,18c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,18
+                c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,10c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,12c1.1,0 
+                2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18, 18c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,24c1.1,0 2,-0.9 
+                2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
             </svg>
             </span>
             <button class="blue-button margin-left">Ieiet</button>
@@ -203,13 +205,13 @@
             </div>
             <hr  style="border-color: #fff; margin: 0;" />
             <div class="row" style="padding: 10px">
-                <div style="display: inline-block;">
+                <div style="display: inline-block; white-space: nowrap;">
                     <a href="#" class="footer-text margin-left">Plašāka informācija</a>
                     <a href="#" class="footer-text margin-left">Reklamēšana</a>
                     <a href="#" class="footer-text margin-left">Uzņēmējdarbība</a>
                     <a href="#" class="footer-text margin-left">Kā darbojas meklēšana</a>
                 </div>
-                <div style="display: inline-block; position: absolute; right: 0;">
+                <div style="float: right;">
                     <a href="#" class="footer-text margin-right">Konfidencialitāte</a>
                     <a href="#" class="footer-text margin-right">Noteikumi</a>
                     <a href="#" class="footer-text margin-right">Iestatījumi</a>
