@@ -2,4 +2,4 @@
 
 Autors Ivars Žeibe
 
-Atdarinājums google sākumlapai un rezultātiem.
+Vizuāli atdarināta google sākumlapa un rezultāti mācību nolūkiem.
